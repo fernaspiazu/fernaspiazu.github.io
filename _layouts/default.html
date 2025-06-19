@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body>
+    <div class="container">
+      <header class="masthead">
+        <h1><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+        <p>{{ site.tagline }}</p>
+      </header>
+      <nav>
+        <a href="{{ site.baseurl }}/">Home</a> |
+        <a href="{{ site.baseurl }}/about/">About</a>
+      </nav>
+      <main>
+        {{ content }}
+      </main>
+      <footer>
+        <p>&copy; {{ site.title }}. Powered by <a href="https://jekyllrb.com/">Jekyll</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>

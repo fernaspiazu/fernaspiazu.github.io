@@ -1,0 +1,38 @@
+# Dependencies
+markdown: kramdown
+
+# Setup
+title: Fernando Aspiazu
+description: My first blog
+paginate: 5
+paginate_path: '/page/:num'
+baseurl: ''
+url: 'https://fernaspiazu.github.io/'
+permalink: '/:year/:month/:title/'
+excerpt_separator: ""
+license:
+  link: 'https://creativecommons.org/licenses/by-nc/4.0/'
+  label: 'CC BY-NC'
+author:
+  name: Fernando Aspiazu
+  url: https://fernaspiazu.github.io/
+  email: fe.aspiazu@gmail.com
+
+# Custom vars
+version: 0.1.0
+github:
+  repo: https://github.com/fernaspiazu/fernaspiazu.github.io
+
+# Custom configs
+plugins: [jekyll-paginate]
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - Thorfile
+  - vim_provision.sh
+  - vimrc.vim
+  - README.md
+  - LICENSE.md
+  - .gitignore
+  - vendor

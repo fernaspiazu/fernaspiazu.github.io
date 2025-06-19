@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+
+  {% include head.html %}
+
+  <body>
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&appId=81489295682&version=v2.0";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+    <div class="container content">
+      <div class="masthead">
+        <h3 class="masthead-title">
+          <img src="{{ site.baseurl }}/public/nando-avatar.png" alt="Fernando Aspiazu">
+          <a href="{{ site.baseurl }}/" title="Home page">{{ site.title }}</a>
+        </h3>
+        <div class="social-icons">
+          <a href="{{ site.baseurl }}/" title="About Me"><i class="fa fa-user-circle"></i></a>
+          <a href="https://github.com/fernaspiazu" title="GitHub - fernaspiazu"><i class="fab fa-github-alt"></i></a></div>
+      </div>
+
+      {{ content }}
+
+      <div class="footer">
+        <p>
+          &copy; Created by {{ site.author.name }} with <a href="http://jekyllrb.com/">Jekyll</a> under <a href="{{ site.license.link }}">{{ site.license.label }}</a>.
+        </p>
+      </div>
+    </div>
+
+  </body>
+</html>

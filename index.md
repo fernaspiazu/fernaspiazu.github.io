@@ -7,7 +7,7 @@ title: About Me • Fernando Aspiazu
 
 My full name is *Fernando Andres Aspiazu Hurtado* (yes, quite a mouthful!), but you can simply call me **Fernando Aspiazu**.
 
-I was born in Ecuador 🇪🇨 in 1987 and lived there until I turned 18. In 2005, I moved to Italy 🇮🇹🤌, where I’ve been ever since.
+I was born in Ecuador 🇪🇨 in 1987 and lived there until I turned 18. In 2005, I moved to Italy 🇮🇹🤌 where I’ve been ever since becoming Italian citizen 🇮🇹🤌 in 2018 after a long wait to meet all the requirements.
 
 In Ecuador, I graduated in Computer Science from my beloved school [**Liceo Cristiano de Guayaquil**](https://liceocristiano.edu.ec/). That’s where I discovered my passion for putting my fingers on the keyboard and creating anything possible with whatever programming language was in front of me. After all, my top grades were in Programming Languages and Flowchart Techniques — which says it all! 🙄
 
